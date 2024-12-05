@@ -1,7 +1,7 @@
 'use client'
 import { useForm } from 'react-hook-form';
 
-export default function formContact() {
+export default function FormContact() {
     const { register, handleSubmit, formState: { errors } } = useForm();
 
     const sendContact = async (data) => {
