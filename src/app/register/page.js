@@ -10,7 +10,7 @@ export default function Register() {
     const registerInPage = async (data) => {
         setDisabledButton(true)
         try {
-            fetch('http://localhost:3000/api/register', {
+            fetch('https://proyectofacultadbackend.onrender.com/api/register', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
